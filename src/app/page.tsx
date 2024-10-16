@@ -1,5 +1,6 @@
 //import Image from 'next/image'
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import ToggleContainer from "./components/ToggleContainer/ToggleContainer";
 
 /**
  *    Header
@@ -24,6 +25,9 @@ export default function Home() {
         <p>Selected projects will be featured in a weekly issue of the Memphis Tech Scenes newsletter and shared via social media. All projects are showcased in a weekly blog post on the Memphis Tech Scene website.</p>
       </div>
 
+      <ToggleContainer title="Project">
+        <p>File Upload</p>
+      </ToggleContainer>
     </main>
   )
 }
