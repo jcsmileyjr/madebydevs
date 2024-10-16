@@ -1,6 +1,7 @@
 //import Image from 'next/image'
 import Header from "./components/Header/Header";
 import ToggleContainer from "./components/ToggleContainer/ToggleContainer";
+import FileUpload from "./components/FileUpload/FileUpload";
 
 /**
  *    Header
@@ -8,7 +9,7 @@ import ToggleContainer from "./components/ToggleContainer/ToggleContainer";
       - VisitSiteButton component
       Content 
       ToggleContainer component
-      - FileUpload components
+      - FileUpload component
       - InputField component with object propety
       ToggleContainer component
       ToggleContainer component
@@ -26,7 +27,7 @@ export default function Home() {
       </div>
 
       <ToggleContainer title="Project">
-        <p>File Upload</p>
+        <FileUpload />
       </ToggleContainer>
     </main>
   )
