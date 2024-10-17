@@ -34,6 +34,16 @@ export default function Home() {
         <InputField property="Tech Stack" />
         <InputField property="Email" />
       </ToggleContainer>
+
+      <ToggleContainer title="Project Links (optional)">
+        <InputField property="Website Link" />
+        <InputField property="Repository Link" />
+      </ToggleContainer>
+
+      <ToggleContainer title="Profile Information (optional)">
+        <InputField property="Profile Name" />
+        <InputField property="Profile Description" />
+      </ToggleContainer>
     </main>
   )
 }
