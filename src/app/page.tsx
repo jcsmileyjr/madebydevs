@@ -4,22 +4,9 @@ import ToggleContainer from "./components/ToggleContainer/ToggleContainer";
 import FileUpload from "./components/FileUpload/FileUpload";
 import InputField from "./components/InputField/InputField";
 
-/**
- *    Header
- *    - Site Logo 
-      - VisitSiteButton component
-      Content 
-      ToggleContainer component
-      - FileUpload component
-      - InputField component with object propety
-      ToggleContainer component
-      ToggleContainer component
-      SubmitButton component
- * 
- */
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-cyan-100">
+    <main className="flex min-h-screen flex-col items-center">
       <Header />
       <div>
         <h1>Showcasing tech projects</h1>
