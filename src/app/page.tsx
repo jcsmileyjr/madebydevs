@@ -2,6 +2,7 @@
 import Header from "./components/Header/Header";
 import ToggleContainer from "./components/ToggleContainer/ToggleContainer";
 import FileUpload from "./components/FileUpload/FileUpload";
+import InputField from "./components/InputField/InputField";
 
 /**
  *    Header
@@ -28,6 +29,10 @@ export default function Home() {
 
       <ToggleContainer title="Project">
         <FileUpload />
+        <InputField property="Project Name" />
+        <InputField property="Project Description" />
+        <InputField property="Tech Stack" />
+        <InputField property="Email" />
       </ToggleContainer>
     </main>
   )
